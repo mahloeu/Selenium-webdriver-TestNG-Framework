@@ -99,6 +99,12 @@
 			<artifactId>mail</artifactId>
 			<version>1.4.5</version>
 		</dependency>
+	  <-- Added Selenium Maven dependency for users who clone from Git -->		
+	  <dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>4.0.0</version>
+		</dependency>
 		<dependency>
 	<groupId>com.googlecode.json-simple</groupId>
 	<artifactId>json-simple</artifactId>
